@@ -51,7 +51,7 @@ def predict():
             'aveoccup' : body['aveoccup'],
             'latitude' : body['latitude'],
             'longitude' : body['longitude'],
-            'prediksi' : hasil,
+            'PRICE_PREDICTION' : hasil,
             'status': 'sukses POST'
         })
     elif request.method == 'GET':
@@ -89,7 +89,7 @@ def predictform():
             'aveoccup' : body['aveoccup'],
             'latitude' : body['latitude'],
             'longitude' : body['longitude'],
-            'prediksi' : hasil,
+            'PRICE_PREDICTION' : hasil,
             'status': 'sukses POST'
         })
         # return render_template('result.html', body=body)
