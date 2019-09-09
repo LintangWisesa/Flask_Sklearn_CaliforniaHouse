@@ -16,7 +16,7 @@
 
 2. It will automatically run on __http://localhost:5000/__. Open it via your favourite browser then you will see its landing page:
 
-    ![home](./zhome.png)
+    ![home](./screenshot/zhome.png)
 
     Try to POST to __http://localhost:5000/predict__
 
@@ -38,7 +38,7 @@
 
 3. Back to __http://localhost:5000/__ then you will be redirected to its prediction page form, where you can try to predict a profile. Insert __medinc__, __houseage__, __averooms__, __avebedrms__, __population__, __aveoccup__, __latitude__ & __longitude__ then click __Predict__ button. The result will be shown on __http://localhost:5000/predictform__:
 
-    ![result](./zresult.png)
+    ![result](./screenshot/zresult.png)
 
 4. __Done!__ 👍 Enjoy your code 😎
 
